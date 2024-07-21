@@ -134,7 +134,48 @@ public class Model {
     /*判断是否有相邻相同方块，有则返回true*/
     public boolean theSameNeighbor() {
         for(int row = 1; row < Main.size()-1; row++){
-
+            for(int col = 1; col < Main.size()-1; col++){
+                if(this.tile(row,col).value()==this.tile(row+1,col).value())
+                {
+                    return true;
+                }
+                if(this.tile(row,col).value()==this.tile(row-1,col).value())
+                {
+                    return true;
+                }
+                if(this.tile(row,col).value()==this.tile(row,col+1).value())
+                {
+                    return true;
+                }
+                if(this.tile(row,col).value()==this.tile(row,col-1).value())
+                {
+                    return true;
+                }
+            }
+        }
+        if (this.tile(0,0).value()==this.tile(0,1).value()){
+            return true;
+        }
+        if (this.tile(0,0).value()==this.tile(1,0).value()){
+            return true;
+        }
+        if (this.tile(0,0).value()==this.tile(0,1).value()){
+            return true;
+        }
+        if (this.tile(0,0).value()==this.tile(0,1).value()){
+            return true;
+        }
+        if (this.tile(0,0).value()==this.tile(0,1).value()){
+            return true;
+        }
+        if (this.tile(0,0).value()==this.tile(0,1).value()){
+            return true;
+        }
+        if (this.tile(0,0).value()==this.tile(0,1).value()){
+            return true;
+        }
+        if (this.tile(0,0).value()==this.tile(0,1).value()){
+            return true;
         }
     }
 
