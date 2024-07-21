@@ -133,50 +133,35 @@ public class Model {
 
     /*判断是否有相邻相同方块，有则返回true*/
     public boolean theSameNeighbor() {
-        for(int row = 1; row < Main.size()-1; row++){
-            for(int col = 1; col < Main.size()-1; col++){
-                if(this.tile(row,col).value()==this.tile(row+1,col).value())
-                {
-                    return true;
+        for(int row = 0; row < Main.size(); row++){
+            for(int col = 0; col < Main.size(); col++){
+                if (row + 1 < Main.size()) {
+                    if(this.tile(row,col).value()==this.tile(row+1,col).value())
+                    {
+                        return true;
+                    }
                 }
-                if(this.tile(row,col).value()==this.tile(row-1,col).value())
-                {
-                    return true;
+                if (row > 0) {
+                    if(this.tile(row,col).value()==this.tile(row-1,col).value())
+                    {
+                        return true;
+                    }
                 }
-                if(this.tile(row,col).value()==this.tile(row,col+1).value())
-                {
-                    return true;
+                if (col + 1 < Main.size()) {
+                    if(this.tile(row,col).value()==this.tile(row,col+1).value())
+                    {
+                        return true;
+                    }
                 }
-                if(this.tile(row,col).value()==this.tile(row,col-1).value())
-                {
-                    return true;
+                if (col > 0) {
+                    if(this.tile(row,col).value()==this.tile(row,col-1).value())
+                    {
+                        return true;
+                    }
                 }
             }
         }
-        if (this.tile(0,0).value()==this.tile(0,1).value()){
-            return true;
-        }
-        if (this.tile(0,0).value()==this.tile(1,0).value()){
-            return true;
-        }
-        if (this.tile(0,0).value()==this.tile(0,1).value()){
-            return true;
-        }
-        if (this.tile(0,0).value()==this.tile(0,1).value()){
-            return true;
-        }
-        if (this.tile(0,0).value()==this.tile(0,1).value()){
-            return true;
-        }
-        if (this.tile(0,0).value()==this.tile(0,1).value()){
-            return true;
-        }
-        if (this.tile(0,0).value()==this.tile(0,1).value()){
-            return true;
-        }
-        if (this.tile(0,0).value()==this.tile(0,1).value()){
-            return true;
-        }
+        return false;
     }
 
 
