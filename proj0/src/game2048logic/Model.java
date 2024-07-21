@@ -199,12 +199,13 @@ public class Model {
                     targetY = j -1;
                     break;
                 }
-                else{
+                else if(board.tile(x,j).value() == myValue && !board.tile(x,j).wasMerged()){
                     targetY = j;
-                    if (!board.tile(x,j).wasMerged())
-                    {
-                        myValue *= 2;
-                    }
+                    myValue *= 2;
+                    break;
+                }
+                else{
+                    targetY = j - 1;
                     break;
                 }
             }
