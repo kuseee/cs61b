@@ -12,6 +12,16 @@ public class Main {
     /** Number of squares on the side of a board. */
     static final int BOARD_SIZE = 4;
 
+    /*逆天函数：return board_size*/
+
+    public static int size(){
+        return BOARD_SIZE;
+    }
+
+
+
+
+
     /** Random seed. Ignored if 0. */
     static final long RANDOM_SEED = 0;
 

@@ -1,9 +1,9 @@
 package game2048logic;
 
 import game2048rendering.Board;
+import game2048rendering.Main;
 import game2048rendering.Side;
 import game2048rendering.Tile;
-
 import java.util.Formatter;
 
 
@@ -84,16 +84,36 @@ public class Model {
      *  Empty spaces are stored as null.
      * */
     public boolean emptySpaceExists() {
+        int col,row;
+        for (col = 0; col < Main.size(); col++) {
+            for(row = 0; row < Main.size(); row++){
+                if(this.tile(row,col) == null){
+                    return true;
+                }
+            }
+        }
         // TODO: Task 2. Fill in this function.
         return false;
     }
-
+/* m.emptySpaceExist()   this = board    BOARD_SIZE = 4
     /**
      * Returns true if any tile is equal to the maximum valid value.
      * Maximum valid value is given by this.MAX_PIECE. Note that
      * given a Tile object t, we get its value with t.value().
      */
     public boolean maxTileExists() {
+        int col,row,max = 0;
+        for (col = 0; col < Main.size(); col++){
+            for(row = 0; row < Main.size(); row++){
+                if(this.tile(row,col) == null){continue;}
+                if(this.tile(row,col).value() >= max){
+                    max = this.tile(row,col).value();
+                }
+                if (max == MAX_PIECE){
+                    return true;
+                }
+            }
+        }
         // TODO: Task 3. Fill in this function.
         return false;
     }
@@ -105,9 +125,24 @@ public class Model {
      * 2. There are two adjacent tiles with the same value.
      */
     public boolean atLeastOneMoveExists() {
+        if (this.emptySpaceExists()){return true;}
+        if (this.theSameNeighbor()){return true;}
         // TODO: Fill in this function.
         return false;
     }
+
+    /*判断是否有相邻相同方块，有则返回true*/
+    public boolean theSameNeighbor() {
+        for(int row = 1; row < Main.size()-1; row++){
+
+        }
+    }
+
+
+
+
+
+
 
     /**
      * Moves the tile at position (x, y) as far up as possible.

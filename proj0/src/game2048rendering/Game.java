@@ -27,7 +27,7 @@ class Game {
         }
     }
 
-    /** Return true iff we have not received a Quit command. */
+    /** Return true if we have not received a Quit command. */
     boolean playing() {
         return _playing;
     }
