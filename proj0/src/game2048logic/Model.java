@@ -202,6 +202,7 @@ public class Model {
                 else if(board.tile(x,j).value() == myValue && !board.tile(x,j).wasMerged()){
                     targetY = j;
                     myValue *= 2;
+                    score += myValue;
                     break;
                 }
                 else{
@@ -238,11 +239,11 @@ public class Model {
     }
 
     public void tilt(Side side) {
+        board.setViewingPerspective(side);
         for(int x = 0; x < board.size(); x ++){
             this.tiltColumn(x);
         }
-
-
+        board.setViewingPerspective(Side.NORTH);
         // TODO: Tasks 8 and 9. Fill in this function.
     }
 
