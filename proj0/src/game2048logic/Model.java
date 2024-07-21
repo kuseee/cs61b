@@ -196,13 +196,14 @@ public class Model {
         for (int j = y + 1; j < board.size();j++){
             if (board.tile(x,j) != null){
                 if (board.tile(x,j).value() != myValue){
+                    if(j - 1 == y){return;}
                     targetY = j -1;
                     break;
                 }
                 else if(board.tile(x,j).value() == myValue && !board.tile(x,j).wasMerged()){
                     targetY = j;
-                    myValue *= 2;
-                    score += myValue;
+//                    myValue *= 2;
+                    score += myValue*2;
                     break;
                 }
                 else{
@@ -231,7 +232,7 @@ public class Model {
      * */
     public void tiltColumn(int x) {
         for(int y = board.size() - 2; y >= 0; y--){
-            if(this.tile(x,y) != null){
+            if(this.tile(x, y) != null){
                 this.moveTileUpAsFarAsPossible(x,y);
             }
         }
