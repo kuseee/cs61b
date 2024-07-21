@@ -126,6 +126,7 @@ public class Model {
      */
     public boolean atLeastOneMoveExists() {
         if (this.emptySpaceExists()){return true;}
+        /*已经确定没有空位置了，所以不需判断是否为空*/
         if (this.theSameNeighbor()){return true;}
         // TODO: Fill in this function.
         return false;
