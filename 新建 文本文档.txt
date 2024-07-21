@@ -1,0 +1,14 @@
+def format_number(m, n, number):
+    if n > 0:
+        format_str = f"{{:0{m}.{n}f}}"
+    else:
+        format_str = f"{{:0{m}d}}"
+    return format_str.format(number)
+
+def main():
+    m, n = map(int, input().split())
+    number = float(input())
+    formatted_number = format_number(m, n, number)
+    print(formatted_number)
+if __name__ == "__main__":
+    main()
