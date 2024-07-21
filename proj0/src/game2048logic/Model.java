@@ -85,8 +85,8 @@ public class Model {
      * */
     public boolean emptySpaceExists() {
         int col,row;
-        for (col = 0; col < Main.size(); col++) {
-            for(row = 0; row < Main.size(); row++){
+        for (col = 0; col < board.size(); col++) {
+            for(row = 0; row < board.size(); row++){
                 if(this.tile(col,row) == null){
                     return true;
                 }
@@ -103,8 +103,8 @@ public class Model {
      */
     public boolean maxTileExists() {
         int col,row,max = 0;
-        for (col = 0; col < Main.size(); col++){
-            for(row = 0; row < Main.size(); row++){
+        for (col = 0; col < board.size(); col++){
+            for(row = 0; row < board.size(); row++){
                 if(this.tile(col,row) == null){continue;}
                 if(this.tile(col,row).value() >= max){
                     max = this.tile(col,row).value();
@@ -134,9 +134,9 @@ public class Model {
 
     /*判断是否有相邻相同方块，有则返回true*/
     public boolean theSameNeighbor() {
-        for(int row = 0; row < Main.size(); row++){
-            for(int col = 0; col < Main.size(); col++){
-                if (col + 1 < Main.size()) {
+        for(int row = 0; row < board.size(); row++){
+            for(int col = 0; col < board.size(); col++){
+                if (col + 1 < board.size()) {
                     if(this.tile(col,row).value()==this.tile(col+1,row).value())
                     {
                         return true;
@@ -148,7 +148,7 @@ public class Model {
                         return true;
                     }
                 }
-                if (row + 1 < Main.size()) {
+                if (row + 1 < board.size()) {
                     if(this.tile(col,row).value()==this.tile(col,row+1).value())
                     {
                         return true;
