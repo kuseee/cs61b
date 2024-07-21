@@ -87,7 +87,7 @@ public class Model {
         int col,row;
         for (col = 0; col < Main.size(); col++) {
             for(row = 0; row < Main.size(); row++){
-                if(this.tile(row,col) == null){
+                if(this.tile(col,row) == null){
                     return true;
                 }
             }
@@ -105,9 +105,9 @@ public class Model {
         int col,row,max = 0;
         for (col = 0; col < Main.size(); col++){
             for(row = 0; row < Main.size(); row++){
-                if(this.tile(row,col) == null){continue;}
-                if(this.tile(row,col).value() >= max){
-                    max = this.tile(row,col).value();
+                if(this.tile(col,row) == null){continue;}
+                if(this.tile(col,row).value() >= max){
+                    max = this.tile(col,row).value();
                 }
                 if (max == MAX_PIECE){
                     return true;
@@ -135,26 +135,26 @@ public class Model {
     public boolean theSameNeighbor() {
         for(int row = 0; row < Main.size(); row++){
             for(int col = 0; col < Main.size(); col++){
-                if (row + 1 < Main.size()) {
-                    if(this.tile(row,col).value()==this.tile(row+1,col).value())
-                    {
-                        return true;
-                    }
-                }
-                if (row > 0) {
-                    if(this.tile(row,col).value()==this.tile(row-1,col).value())
-                    {
-                        return true;
-                    }
-                }
                 if (col + 1 < Main.size()) {
-                    if(this.tile(row,col).value()==this.tile(row,col+1).value())
+                    if(this.tile(col,row).value()==this.tile(col+1,row).value())
                     {
                         return true;
                     }
                 }
                 if (col > 0) {
-                    if(this.tile(row,col).value()==this.tile(row,col-1).value())
+                    if(this.tile(col,row).value()==this.tile(col-1,row).value())
+                    {
+                        return true;
+                    }
+                }
+                if (row + 1 < Main.size()) {
+                    if(this.tile(col,row).value()==this.tile(col,row+1).value())
+                    {
+                        return true;
+                    }
+                }
+                if (row > 0) {
+                    if(this.tile(row,col).value()==this.tile(col,row-1).value())
                     {
                         return true;
                     }
@@ -184,13 +184,43 @@ public class Model {
      *    value, then the leading two tiles in the direction of motion merge,
      *    and the trailing tile does not.
      */
+
+
+
+
+
     public void moveTileUpAsFarAsPossible(int x, int y) {
         Tile currTile = board.tile(x, y);
         int myValue = currTile.value();
         int targetY = y;
-
+        for (int j = y + 1; j < board.size();j++){
+            if (board.tile(x,j) != null){
+                if (board.tile(x,j).value() != myValue){
+                    targetY = j -1;
+                    break;
+                }
+                else{
+                    targetY = j;
+                    if (!board.tile(x,j).wasMerged())
+                    {
+                        myValue *= 2;
+                    }
+                    break;
+                }
+            }
+            else{targetY = j;}
+        }
+        board.move(x,targetY,currTile);
         // TODO: Tasks 5, 6, and 10. Fill in this function.
     }
+
+
+
+
+
+
+
+
 
     /** Handles the movements of the tilt in column x of the board
      * by moving every tile in the column as far up as possible.
@@ -198,10 +228,20 @@ public class Model {
      * so we are tilting the tiles in this column up.
      * */
     public void tiltColumn(int x) {
+        for(int y = board.size() - 2; y >= 0; y--){
+            if(this.tile(x,y) != null){
+                this.moveTileUpAsFarAsPossible(x,y);
+            }
+        }
         // TODO: Task 7. Fill in this function.
     }
 
     public void tilt(Side side) {
+        for(int x = 0; x < board.size(); x ++){
+            this.tiltColumn(x);
+        }
+
+
         // TODO: Tasks 8 and 9. Fill in this function.
     }
 
