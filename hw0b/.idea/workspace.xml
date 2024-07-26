@@ -1,39 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="22e24cb7-421c-4523-a843-2fb6a86a0a6c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../proj0/src/game2048logic/Model.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/src/game2048rendering/Board.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/src/game2048rendering/BoardWidget.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/src/game2048rendering/GUI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/src/game2048rendering/Game.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/src/game2048rendering/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/src/game2048rendering/Side.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/src/game2048rendering/Tile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/tests/game2048logic/TestAtLeastOneMoveExists.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/tests/game2048logic/TestEmptySpace.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/tests/game2048logic/TestMaxTileExists.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/tests/game2048logic/TestModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/tests/game2048logic/TestMoveTileUp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/tests/game2048logic/TestMultipleMoves.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/tests/game2048logic/TestNbyN.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/tests/game2048logic/TestTiltColumn.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/tests/game2048logic/TestTiltMerge.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/tests/game2048logic/TestTiltNoMerge.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/tests/game2048logic/TestUpOnly.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/tests/game2048logic/TestUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw 0A/helloworld.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw 0A/out/production/helloworld/JavaNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw 0A/out/production/helloworld/LargerDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw 0A/out/production/helloworld/Strings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw 0A/out/production/helloworld/dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw 0A/out/production/helloworld/doglauncher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw 0A/out/production/helloworld/homework_0B_learning.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw 0A/out/production/helloworld/loop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw 0A/out/production/helloworld/printIndexed.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw 0A/out/production/helloworld/quadrant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw 0A/out/production/helloworld/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw 0A/src/JavaNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw 0A/src/LargerDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw 0A/src/Strings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw 0A/src/dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw 0A/src/doglauncher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw 0A/src/homework_0B_learning.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw 0A/src/loop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw 0A/src/printIndexed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw 0A/src/quadrant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw 0A/src/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw0b.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hw0b.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaExercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaExercises.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ListExercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListExercises.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MapExercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MapExercises.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2jmHnbXmORFqM3X24YuNkmVjiLs" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -41,12 +57,70 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.DessertTest.executor": "Run",
+    "JUnit.JavaExercisesTest.executor": "Run",
+    "JUnit.ListExercisesTest.executor": "Run",
+    "JUnit.MapExercisesTest.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/CAO/Desktop/code/cs61b/sp24-s001/hw0b"
+    "last_opened_file_path": "C:/Users/CAO/Desktop/code/cs61b/library-sp24",
+    "project.structure.last.edited": "Global Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.MapExercisesTest">
+    <configuration name="DessertTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw0b" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DessertTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaExercisesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw0b" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JavaExercisesTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListExercisesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw0b" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ListExercisesTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapExercisesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw0b" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MapExercisesTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MapExercisesTest" />
+        <item itemvalue="JUnit.DessertTest" />
+        <item itemvalue="JUnit.ListExercisesTest" />
+        <item itemvalue="JUnit.JavaExercisesTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
