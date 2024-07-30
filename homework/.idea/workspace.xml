@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="13a39840-72d3-4bd0-a864-51faae44e72c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/hw0b/hw0b.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab02/lab02.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/.idea/libraries/library_sp24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/proj0/.idea/libraries/library_sp24.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/proj0/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/proj0.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning code/Video3/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning code/Video3/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning code/Video3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning code/Video3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning code/Video3/Video3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning code/Video3/src/IntList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning code/Video3/src/magicalList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning code/Video3/src/magicalList2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning code/Video4/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning code/Video4/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning code/Video4/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning code/Video4/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning code/Video4/Video4.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning code/Video4/src/SLList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning code/Video5/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning code/Video5/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning code/Video5/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning code/Video5/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning code/Video5/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning code/Video5/Video4.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning code/Video5/src/SLList.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2jxe9wL5HRxwdAxawHHqb09QbGR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="13a39840-72d3-4bd0-a864-51faae44e72c" name="Changes" comment="" />
+      <created>1722333010378</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1722333010378</updated>
+    </task>
+    <servers />
+  </component>
+</project>
