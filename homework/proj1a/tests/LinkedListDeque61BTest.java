@@ -56,5 +56,65 @@ public class LinkedListDeque61BTest {
          assertThat(lld1.toList()).containsExactly(-2, -1, 0, 1, 2).inOrder();
      }
 
+     @Test
+     public void SizeTest(){
+         Deque61B<String> lld1 = new LinkedListDeque61B<>();
+         lld1.addLast("front"); // after this call we expect: ["front"]
+         lld1.addLast("middle"); // after this call we expect: ["front", "middle"]
+         assertThat(lld1.size()).isEqualTo(2);
+     }
+
+     @Test
+    public void IsEmptyTest(){
+        Deque61B<String> lld1 = new LinkedListDeque61B<>();
+        lld1.addLast("front"); // after this call we expect: ["front"]
+        lld1.addLast("middle"); // after this call we expect: ["front", "middle"]
+        assertThat(lld1.isEmpty()).isEqualTo(false);
+    }
+
+    @Test
+    public void IsEmptyTest2(){
+        Deque61B<String> lld1 = new LinkedListDeque61B<>();
+        assertThat(lld1.isEmpty()).isEqualTo(true);
+    }
+
+    @Test
+    public void RemoveFirstTest() {
+        Deque61B<Integer> lld1 = new LinkedListDeque61B<>();
+        lld1.addLast(0);   // [0]
+        lld1.addLast(1);   // [0, 1]
+        lld1.addFirst(-1); // [-1, 0, 1]
+        lld1.addLast(2);   // [-1, 0, 1, 2]
+        lld1.addFirst(-2); // [-2, -1, 0, 1, 2]
+        lld1.removeFirst();
+        assertThat(lld1.toList()).containsExactly(-1, 0, 1, 2).inOrder();
+    }
+
+    @Test
+    public void RemoveLastTest() {
+        Deque61B<Integer> lld1 = new LinkedListDeque61B<>();
+        lld1.addLast(0);   // [0]
+        lld1.addLast(1);   // [0, 1]
+        lld1.addFirst(-1); // [-1, 0, 1]
+        lld1.addLast(2);   // [-1, 0, 1, 2]
+        lld1.addFirst(-2); // [-2, -1, 0, 1, 2]
+        lld1.removeLast();
+        assertThat(lld1.toList()).containsExactly(-2,-1, 0, 1).inOrder();
+    }
+
+    @Test
+    public void GetRecursiveTest() {
+        Deque61B<Integer> lld1 = new LinkedListDeque61B<>();
+        lld1.addLast(0);   // [0]
+        lld1.addLast(1);   // [0, 1]
+        lld1.addFirst(-1); // [-1, 0, 1]
+        lld1.addLast(2);   // [-1, 0, 1, 2]
+        lld1.addFirst(-2); // [-2, -1, 0, 1, 2]
+        assertThat(lld1.getRecursive(3)).isEqualTo(1);
+    }
+
+
+
+
     // Below, you'll write your own tests for LinkedListDeque61B.
 }
