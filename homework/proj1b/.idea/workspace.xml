@@ -6,10 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="ac91fc0d-6f78-44fe-bed4-946aad6b4b0a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proj1b.iml" beforeDir="false" afterPath="$PROJECT_DIR$/proj1b.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proj1b/ArrayDeque61B.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proj1b/ArrayDeque61B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/proj1b/ArrayDeque61BTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/proj1b/ArrayDeque61BTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ArrayDeque61B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayDeque61B.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/ArrayDeque61BTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ArrayDeque61BTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learning code/Video7-Alist/src/Alist.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../learning code/Video7-Alist/src/Alist.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,13 +40,20 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.ArrayDeque61BPreconditionTest.executor": "Run",
+    "JUnit.ArrayDeque61BTest.AddFirstAndLastTest1.executor": "Run",
+    "JUnit.ArrayDeque61BTest.AddFirstAndLastTest2.executor": "Run",
     "JUnit.ArrayDeque61BTest.AddFirstTest1.executor": "Run",
+    "JUnit.ArrayDeque61BTest.AddFirstTest2.executor": "Run",
     "JUnit.ArrayDeque61BTest.AddLastTest1.executor": "Run",
+    "JUnit.ArrayDeque61BTest.AddLastTest2.executor": "Run",
+    "JUnit.ArrayDeque61BTest.GetTest1.executor": "Run",
     "JUnit.ArrayDeque61BTest.IsEmptyTest1.executor": "Run",
     "JUnit.ArrayDeque61BTest.IsEmptyTest2.executor": "Run",
     "JUnit.ArrayDeque61BTest.SizeTest.executor": "Run",
     "JUnit.ArrayDeque61BTest.SizeTest2.executor": "Run",
     "JUnit.ArrayDeque61BTest.executor": "Run",
+    "JUnit.ArrayDeque61BTest.removeFirstTest2.executor": "Run",
+    "JUnit.ArrayDeque61BTest.removeFirstTest3.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
@@ -56,52 +63,50 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ArrayDeque61BTest.AddFirstAndLastTest1">
-    <configuration name="ArrayDeque61BTest.AddFirstAndLastTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ArrayDeque61BPreconditionTest">
+    <configuration name="ArrayDeque61BPreconditionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proj1b" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ArrayDeque61BPreconditionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayDeque61BTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="proj1b" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ArrayDeque61BTest" />
-      <option name="METHOD_NAME" value="AddFirstAndLastTest1" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayDeque61BTest.AddFirstAndLastTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proj1b" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ArrayDeque61BTest" />
+      <option name="METHOD_NAME" value="AddFirstAndLastTest2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayDeque61BTest.AddLastTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayDeque61BTest.removeFirstTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="proj1b" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ArrayDeque61BTest" />
-      <option name="METHOD_NAME" value="AddLastTest1" />
+      <option name="METHOD_NAME" value="removeFirstTest2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayDeque61BTest.IsEmptyTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayDeque61BTest.removeFirstTest3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="proj1b" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ArrayDeque61BTest" />
-      <option name="METHOD_NAME" value="IsEmptyTest2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayDeque61BTest.SizeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="proj1b" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ArrayDeque61BTest" />
-      <option name="METHOD_NAME" value="SizeTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayDeque61BTest.SizeTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="proj1b" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ArrayDeque61BTest" />
-      <option name="METHOD_NAME" value="SizeTest2" />
+      <option name="METHOD_NAME" value="removeFirstTest3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -109,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ArrayDeque61BTest.AddFirstAndLastTest1" />
-        <item itemvalue="JUnit.ArrayDeque61BTest.AddLastTest1" />
-        <item itemvalue="JUnit.ArrayDeque61BTest.SizeTest2" />
-        <item itemvalue="JUnit.ArrayDeque61BTest.SizeTest" />
-        <item itemvalue="JUnit.ArrayDeque61BTest.IsEmptyTest2" />
+        <item itemvalue="JUnit.ArrayDeque61BPreconditionTest" />
+        <item itemvalue="JUnit.ArrayDeque61BTest" />
+        <item itemvalue="JUnit.ArrayDeque61BTest.removeFirstTest2" />
+        <item itemvalue="JUnit.ArrayDeque61BTest.removeFirstTest3" />
+        <item itemvalue="JUnit.ArrayDeque61BTest.AddFirstAndLastTest2" />
       </list>
     </recent_temporary>
   </component>
