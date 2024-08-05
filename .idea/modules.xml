@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/learning code/Video3-迭代/Video3-迭代.iml" filepath="$PROJECT_DIR$/learning code/Video3-迭代/Video3-迭代.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learning code/Video4-链表，哨兵节点/Video4-链表，哨兵节点.iml" filepath="$PROJECT_DIR$/learning code/Video4-链表，哨兵节点/Video4-链表，哨兵节点.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learning code/Video5-双向链表/Video5-双向链表.iml" filepath="$PROJECT_DIR$/learning code/Video5-双向链表/Video5-双向链表.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learning code/Video6-test/Video6-test.iml" filepath="$PROJECT_DIR$/learning code/Video6-test/Video6-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learning code/Video7-Alist/Video7-Alist.iml" filepath="$PROJECT_DIR$/learning code/Video7-Alist/Video7-Alist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/homework/hw0a/hw0a.iml" filepath="$PROJECT_DIR$/homework/hw0a/hw0a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/homework/hw0b/hw0b.iml" filepath="$PROJECT_DIR$/homework/hw0b/hw0b.iml" />
+      <module fileurl="file://$PROJECT_DIR$/homework/lab02/lab02.iml" filepath="$PROJECT_DIR$/homework/lab02/lab02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/homework/proj0/proj0.iml" filepath="$PROJECT_DIR$/homework/proj0/proj0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/homework/proj1a/proj1a.iml" filepath="$PROJECT_DIR$/homework/proj1a/proj1a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/update.iml" filepath="$PROJECT_DIR$/.idea/update.iml" />
+    </modules>
+  </component>
+</project>

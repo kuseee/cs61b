@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Video3-迭代/Video3-迭代.iml" filepath="$PROJECT_DIR$/Video3-迭代/Video3-迭代.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Video4-链表，哨兵节点/Video4-链表，哨兵节点.iml" filepath="$PROJECT_DIR$/Video4-链表，哨兵节点/Video4-链表，哨兵节点.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Video5-双向链表/Video5-双向链表.iml" filepath="$PROJECT_DIR$/Video5-双向链表/Video5-双向链表.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Video6-test/Video6-test.iml" filepath="$PROJECT_DIR$/Video6-test/Video6-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Video7-Alist/Video7-Alist.iml" filepath="$PROJECT_DIR$/Video7-Alist/Video7-Alist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/learning code.iml" filepath="$PROJECT_DIR$/.idea/learning code.iml" />
+    </modules>
+  </component>
+</project>
