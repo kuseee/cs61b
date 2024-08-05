@@ -93,11 +93,15 @@ public class LinkedListDeque61B<T> implements Deque61B<T>{
 
     @Override
     public T get(int index) {
-        if(index > size || index < 0){
+        ItemNode copy = sentinel1.next;
+        if (index > size || index < 0) {
             return null;
         }
-
-        return null;
+        while (index != 0) {
+            copy = copy.next;
+            index -= 1;
+        }
+        return copy.item;
     }
 
     @Override

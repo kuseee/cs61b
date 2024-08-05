@@ -5,31 +5,118 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac91fc0d-6f78-44fe-bed4-946aad6b4b0a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../learning code/Video6-test/Video6-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../learning code/Video6-test/Video6-test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj1b.iml" beforeDir="false" afterPath="$PROJECT_DIR$/proj1b.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayDeque61B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayDeque61B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/ArrayDeque61BTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ArrayDeque61BTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../learning code/Video7-Alist/src/Alist.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../learning code/Video7-Alist/src/Alist.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2kD00jgx3uk0BSnI3oOdVok9hX0" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.ArrayDeque61BPreconditionTest.executor": "Run",
+    "JUnit.ArrayDeque61BTest.AddFirstTest1.executor": "Run",
+    "JUnit.ArrayDeque61BTest.AddLastTest1.executor": "Run",
+    "JUnit.ArrayDeque61BTest.IsEmptyTest1.executor": "Run",
+    "JUnit.ArrayDeque61BTest.IsEmptyTest2.executor": "Run",
+    "JUnit.ArrayDeque61BTest.SizeTest.executor": "Run",
+    "JUnit.ArrayDeque61BTest.SizeTest2.executor": "Run",
+    "JUnit.ArrayDeque61BTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/CAO/Desktop/code/cs61b/update/homework/proj1a-双向循环链表",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.ArrayDeque61BTest.AddFirstAndLastTest1">
+    <configuration name="ArrayDeque61BTest.AddFirstAndLastTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proj1b" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ArrayDeque61BTest" />
+      <option name="METHOD_NAME" value="AddFirstAndLastTest1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayDeque61BTest.AddLastTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proj1b" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ArrayDeque61BTest" />
+      <option name="METHOD_NAME" value="AddLastTest1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayDeque61BTest.IsEmptyTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proj1b" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ArrayDeque61BTest" />
+      <option name="METHOD_NAME" value="IsEmptyTest2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayDeque61BTest.SizeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proj1b" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ArrayDeque61BTest" />
+      <option name="METHOD_NAME" value="SizeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayDeque61BTest.SizeTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proj1b" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ArrayDeque61BTest" />
+      <option name="METHOD_NAME" value="SizeTest2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ArrayDeque61BTest.AddFirstAndLastTest1" />
+        <item itemvalue="JUnit.ArrayDeque61BTest.AddLastTest1" />
+        <item itemvalue="JUnit.ArrayDeque61BTest.SizeTest2" />
+        <item itemvalue="JUnit.ArrayDeque61BTest.SizeTest" />
+        <item itemvalue="JUnit.ArrayDeque61BTest.IsEmptyTest2" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

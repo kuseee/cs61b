@@ -113,6 +113,17 @@ public class LinkedListDeque61BTest {
         assertThat(lld1.getRecursive(3)).isEqualTo(1);
     }
 
+    @Test
+    public void GetTest() {
+        Deque61B<Integer> lld1 = new LinkedListDeque61B<>();
+        lld1.addLast(0);   // [0]
+        lld1.addLast(1);   // [0, 1]
+        lld1.addFirst(-1); // [-1, 0, 1]
+        lld1.addLast(2);   // [-1, 0, 1, 2]
+        lld1.addFirst(-2); // [-2, -1, 0, 1, 2]
+        assertThat(lld1.get(3)).isEqualTo(1);
+    }
+
 
 
 
