@@ -23,6 +23,8 @@ public class SpeciesListStage implements AdventureStage {
     private final In in;
     private final Map<String, AdventureStage> responses;
 
+
+    //传送门
     public SpeciesListStage(In in) {
         this.in = in;
         this.responses = Map.of("go", new PalindromeStage(in));
@@ -33,6 +35,7 @@ public class SpeciesListStage implements AdventureStage {
         return "Wow! That was pretty neat! We got to see so many neat animals! " +
                 "We should study now, so let's go to the Woz.";
     }
+
 
     @Override
     public void playStage() {
@@ -77,7 +80,7 @@ public class SpeciesListStage implements AdventureStage {
                 user = Arrays.asList(input.toLowerCase().split(" *, *"));
             }
             double similarity = arraySimilarity(reference, user);
-            if (similarity != 1 && reference.size() != 0) {
+            if (similarity != 1 && !reference.isEmpty()) {
                 long numCorrect = Math.round(similarity * reference.size());
                 System.out.println("Try again! You got " + numCorrect + " animals correct!");
                 continue;
