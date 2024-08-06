@@ -37,8 +37,7 @@ public class ArrayDeque61B<T> implements Deque61B<T> {
 
     //防止数组中数字越界
     public int adjust(int x){
-        int result = Math.floorMod(x, arraydeque.length);
-        return result;
+        return Math.floorMod(x, arraydeque.length);
     }
 
     //复制数组
@@ -56,7 +55,6 @@ public class ArrayDeque61B<T> implements Deque61B<T> {
         newarray = null;
         nextlast = size;
         nextfirst = capacity - 1;
-        return;
     }
 
     //减小数组大小
@@ -67,7 +65,6 @@ public class ArrayDeque61B<T> implements Deque61B<T> {
         newarray = null;
         nextlast = size;
         nextfirst = capacity - 1;
-        return;
     }
 
 
@@ -107,10 +104,7 @@ public class ArrayDeque61B<T> implements Deque61B<T> {
 
     @Override
     public boolean isEmpty() {
-        if (size > 0) {
-            return false;
-        }
-        return true;
+        return size <= 0;
     }
 
     @Override
